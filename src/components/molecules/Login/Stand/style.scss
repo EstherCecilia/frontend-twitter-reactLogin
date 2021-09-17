@@ -1,0 +1,20 @@
+.stand {
+  min-height: 45vh;
+  position: relative;
+  padding: 0;
+}
+
+.image {
+  height: 100%;
+}
+
+.board {
+  position: absolute;
+}
+
+.container {
+  width: 50%;
+  @media only screen and (max-width: 650px) {
+    width: 100%;
+  }
+}
